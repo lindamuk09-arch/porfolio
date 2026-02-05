@@ -1,0 +1,30 @@
+*{
+text-decoration: none;
+background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    align-items: center;
+    background-color: black;
+}
+.navbar a{
+margin-left: 2rem;
+font-weight: bold ;
+font-size: 1.3rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: azure;
+}
+.log{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(255, 0, 0);
+}
+ a:hover{
+    color: rgb(255, 0, 0);    
+}
+.log:hover{
+    color: aliceblue;
+}
+
